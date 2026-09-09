@@ -18,7 +18,7 @@ jobs:
           channel: 'stable'
 
       - name: Generate native Android project
-        run: flutter create --platforms=android --org com.cyberacademy .
+        run: flutter create --platforms=android --project-name cyber_academy_app --org com.cyberacademy .
 
       - name: Install dependencies
         run: flutter pub get
