@@ -17,6 +17,9 @@ jobs:
           flutter-version: '3.24.0'
           channel: 'stable'
 
+      - name: Generate native Android project
+        run: flutter create --platforms=android --org com.cyberacademy .
+
       - name: Install dependencies
         run: flutter pub get
 
