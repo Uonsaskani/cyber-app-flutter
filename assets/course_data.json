@@ -1,0 +1,59 @@
+{
+  "sections": [
+    {
+      "label": "شروع",
+      "modules": [
+        {
+          "id": 1,
+          "title": "مبانی امنیت سایبری",
+          "subtitle": "۱۲ درس · ۱ آزمون",
+          "free": true,
+          "lessons": [
+            { "title": "CIA Triad و مفاهیم پایه", "type": "content" },
+            { "title": "انواع مهاجم و انگیزه‌ها", "type": "content" },
+            { "title": "آزمون پایانی ماژول", "type": "quiz" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "امنیت ویندوز",
+          "subtitle": "۱۵ درس · ۱ آزمون",
+          "free": false,
+          "lessons": [
+            { "title": "Active Directory چیست؟", "type": "content" },
+            { "title": "Process و Task Manager", "type": "content" },
+            { "title": "آزمون پایانی ماژول", "type": "quiz" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "اکتیو دایرکتوری",
+          "subtitle": "۲۰ درس · ۱ آزمون",
+          "free": false,
+          "lessons": [
+            { "title": "Domain، Domain Controller و Forest", "type": "content" },
+            { "title": "Kerberos، NTLM و LDAP", "type": "content" },
+            { "title": "آزمون پایانی ماژول", "type": "quiz" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "شناسایی و حمله",
+      "modules": [
+        {
+          "id": 5,
+          "title": "شناسایی و جمع‌آوری اطلاعات",
+          "subtitle": "۱۸ درس · ۱ آزمون",
+          "free": false,
+          "lessons": [
+            { "title": "Passive و Active Recon", "type": "content" },
+            { "title": "WHOIS، Certificate Transparency، OSINT", "type": "content" },
+            { "title": "آزمون پایانی ماژول", "type": "quiz" }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "این فقط نمونه اولیه است."
+}
